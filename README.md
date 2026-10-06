@@ -39,9 +39,6 @@
   </a>
 </p>
 
-<p align="center">
-  <img alt="Agentic RAG Demo" src="assets/demo.gif" width="650px">
-</p>
 
 <p align="center">
   <strong>If you like this project, a star ⭐️ would mean a lot :)</strong><br>
