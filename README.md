@@ -17,14 +17,6 @@
   <a href="#troubleshooting">Troubleshooting</a>
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/github/stars/GiovanniPasq/agentic-rag-for-dummies?style=social" alt="GitHub Stars"/>
-  <img src="https://img.shields.io/github/forks/GiovanniPasq/agentic-rag-for-dummies?style=social" alt="GitHub Forks"/>
-  <img src="https://img.shields.io/badge/license-MIT-green" alt="License"/>
-  <a href="https://github.com/von-development/awesome-langgraph">
-    <img src="https://awesome.re/badge.svg" alt="Awesome LangGraph"/>
-  </a>
-</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/python-3.11%2B-blue?logo=python&logoColor=white" alt="Python"/>
@@ -33,11 +25,7 @@
   <img src="https://img.shields.io/badge/LLM%20Providers-Ollama%20%7C%20OpenAI%20%7C%20Anthropic%20%7C%20Google-purple" alt="LLM Providers"/>
 </p>
 
-<p align="center">
-  <a href="https://colab.research.google.com/github/GiovanniPasq/agentic-rag-for-dummies/blob/main/notebooks/agentic_rag.ipynb">
-    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
-  </a>
-</p>
+
 
 
 <p align="center">
@@ -83,7 +71,7 @@ Before queries can be processed, documents are split twice for optimal retrieval
 - **Parent Chunks**: Bounded large sections based on Markdown headers (H1, H2, H3)
 - **Child Chunks**: Small, fixed-size pieces derived from parents
 
-> Optional: 🐿️ [**Chunky**](https://github.com/GiovanniPasq/chunky) is an open-source toolkit for reliable RAG pipelines: convert PDFs to Markdown, clean documents, inspect chunks, compare chunking strategies, and enrich metadata before building the vector store.
+> Optional: 🐿️ [**Chunky**] is an open-source toolkit for reliable RAG pipelines: convert PDFs to Markdown, clean documents, inspect chunks, compare chunking strategies, and enrich metadata before building the vector store.
 
 This combines the **precision of small chunks** for search with the **contextual richness of large chunks** for answer generation.
 
